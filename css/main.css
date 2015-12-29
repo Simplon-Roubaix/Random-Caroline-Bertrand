@@ -95,6 +95,15 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.container {
+    text-align: center;
+    margin-top: 8em;
+    border: solid grey 0.3em;
+    }
+
+p {
+    font-weight: bold;
+}
 
 
 
