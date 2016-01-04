@@ -1,7 +1,7 @@
 userChoice = document.getElementById("userChoice");
 button = document.getElementById("button");
 result = document.getElementById("result");
-randomPc = Math.ceil(Math.random() * 10);
+randomPc = Math.floor(Math.random() * 10)+1;
 
 function pcRandom() {
     if (userChoice.value<0){
@@ -19,6 +19,7 @@ function pcRandom() {
   if (userChoice.value == randomPc){
      alert("Bien ouèj !");
    }
+userChoice.value = "";
 };
 
 button.onclick = pcRandom;
