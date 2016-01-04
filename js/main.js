@@ -1,7 +1,7 @@
 userChoice = document.getElementById("userChoice");
 button = document.getElementById("button");
 result = document.getElementById("result");
-randomPc = Math.ceil(Math.random() * 10);
+randomPc = Math.floor(Math.random() * 10);
 
 function pcRandom() {
     if (userChoice.value<0){
