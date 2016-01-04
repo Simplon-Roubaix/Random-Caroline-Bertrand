@@ -19,6 +19,7 @@ function pcRandom() {
   if (userChoice.value == randomPc){
      alert("Bien ouèj !");
    }
+userChoice.value = "";
 };
 
 button.onclick = pcRandom;
