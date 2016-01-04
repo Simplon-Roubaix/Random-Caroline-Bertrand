@@ -25,7 +25,8 @@
     <![endif]-->
     <div class="container">
         <p>
-            Trouvez le chiffre sorti par l'ordinateur : il est compris entre 0 et 10 !
+            Trouvez le chiffre sorti par l'ordinateur : il est compris entre 1 et 10 !
+            <!-- si on choisit le chiffre entre 0 et ..., si entre 0 et ... retirer le +1 en js dans le math.random -->
         </p>
         <input type="text" id="userChoice" placeholder="Saisir un nombre compris entre 0 et 10" size="40%" onkeypress="if(event.keyCode==13){pcRandom()}" />
         <button id="button">Vérification</button>
