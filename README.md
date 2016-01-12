@@ -1,4 +1,4 @@
-# 14-RandomAvecMonBinome
+# RandomAvecMonBinome
 ### Création jeu du random où l'utilisateur doit deviner un nombre choisi aléatoirement en JavaScript par l'ordinateur.
 ####1. L'ordinateur affiche si la proposition est supérieure ou inférieure
 ####2. L'ordinateur affiche si l'utilisateur propose 2x la même réponse
